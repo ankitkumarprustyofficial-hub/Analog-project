@@ -2,8 +2,7 @@
 # Analog Circuit Project
 
 ## Overview
-Brief explanation of what the circuit does and how it operates.
-
+This is an Analog DC powered fan. Combined with an light Dependent resistor which allows the motion according to the brightness of the room. 
 ## Breadboard Setup
 
 ![Breadboard Setup 1](IMG20261111183750.jpg)
