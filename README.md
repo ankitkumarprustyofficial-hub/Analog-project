@@ -27,8 +27,8 @@ Because the L293D is oriented with its notch facing down, Channel 3 (`3A` $\righ
 | Bottom-Right | Pin 1 | `1,2EN` | $+9\text{V}$ Rail |
 | Top-Right | Pin 8 | `VCC2` (Motor Supply) | $+9\text{V}$ Rail |
 | Top-Left | Pin 9 | `3,4EN` (Channel 3/4 Enable) | $+9\text{V}$ Rail |
-| 2nd from Top-Left | Pin 10 | `3A` (Sensor Input) | LDR + Potentiometer Junction |
-| 3rd from Top-Left | Pin 11 | `3Y` (Driver Output) | Fan (+), Buzzer (+), $220\ \Omega$ Resistor $\rightarrow$ LED (+) |
+| 2nd from Top-Left | Pin 2 | `2A` (Sensor Input) | LDR + Potentiometer Junction | Remember to add ground to any outer leg of potentiometer
+| 3rd from Top-Left | Pin 3 | `2Y` (Driver Output) | Fan (+), Buzzer (+), $220\ \Omega$ Resistor $\rightarrow$ LED (+) |
 | Middle Pins | Pins 4, 5, 12, 13 | `GND` / Heat Sink | Common Ground (`0V`) |
 | Bottom-Left | Pin 16 | `VCC1` (Logic Supply) | $+9\text{V}$ Rail |
 
